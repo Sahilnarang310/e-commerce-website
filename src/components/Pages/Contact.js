@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Title from "../UI/Title";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import axios from "axios";
-const url = "https://auth-react-21ca9-default-rtdb.firebaseio.";
+const url = "https://auth-react-21ca9-default-rtdb.firebaseio.com/user.json";
 const Contact = () => {
   const [userState,setUserState]= useState();
   const submitHandler=async (e)=>{
